@@ -1,21 +1,49 @@
 .tem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
-input{
-    width: 300px;
+input {
+  width: 300px;
 }
 
+header {
+  background-color: wheat;
+  color: maroon;
+  /* width: 1024px; */
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+}
+
+.outlet {
+  height: 100dvh;
+}
