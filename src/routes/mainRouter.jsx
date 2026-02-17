@@ -12,7 +12,7 @@ import MainLayout from "../layouts/MainLayout.jsx";
 const mainRouter = {
   path: "/",
   element: <MainLayout />,
-  Children: [
+  children: [
     {
       path: "/html",
       element: <Html />,
